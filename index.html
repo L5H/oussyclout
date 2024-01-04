@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="flash#9999">
+    <meta property="og:url" content="funeral.wtf">
+    <meta property="og:image" content="https://media.tenor.com/j0SkPNvyNToAAAAd/jordan-barrett-mogged.gif">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="">
+
+    <title>x</title>
+</head>
+<body oncontextmenu="return false;">
+    <input type="checkbox" id="overlay-toggle" autocomplete="off">
+    <div class="overlay fullscreen">
+        <div id="center">
+            <label for="overlay-toggle" onclick="audioPlay(); videoPlay()"> 
+                <div id="enter"><b class="a">click ^_^</b></div>
+            </label>
+        </div>
+    </div>  
+    <script>
+        function audioPlay() {
+            var audio = document.getElementById("audio");
+            audio.volume = 1;
+            audio.play();
+        }
+
+        function videoPlay() {
+            var video = document.getElementById("video");
+            video.play();
+        }
+    </script>
+    <section class="fullscreen text-content">
+        <audio loop preload="auto" id="audio">
+            <source src="https://cdn.discordapp.com/attachments/1170454399982768310/1192572689106337934/crucifix_ft_m4ri_prod_xaviersobased.mp3?ex=65a990de&is=65971bde&hm=cf43ff4c4cb71025fda79346c3caeaab1dc24b863473c8fc3ae524523ee90b63&" type="audio/mp3">
+        </audio>
+
+        <video id="video" width="1920" height="1080" muted loop>
+            <source src="https://cdn.discordapp.com/attachments/1170454399982768310/1192572694315679845/shaio_-_24_official_music_video.mp4?ex=65a990df&is=65971bdf&hm=b730eff120dc9174289845e2092b0a911fcd07840fdbd2615f61fa41303538d4&4" type="video/mp4">
+        </video>
+
+        <div id="discord">
+            <img class="fade-in-text" src="https://cdn.discordapp.com/attachments/997685712440807585/1159625580359200999/Capture.png?ex=6531b47b&is=651f3f7b&hm=0f39996d08882deb66647e59ee4276ee40e1a378d1bcd834454c591f997d49d2&" alt="Centered Image" draggable="false">
+        </div>
+    </section>
+</body>
+</html>
